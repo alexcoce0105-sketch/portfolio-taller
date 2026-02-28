@@ -1,6 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     color: #2c3e50;
     font-size: 3em;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
 }
 
 p {
