@@ -42,3 +42,16 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+}
