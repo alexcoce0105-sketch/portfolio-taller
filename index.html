@@ -7,22 +7,46 @@
 </head>
 
 <body>
-    <img src="https://via.placeholder.com/150" alt="Foto de perfil de Usuario">
-    <h1>Usuario</h1>
-    <div>
-        <a href="https://linkedin.com">LinkedIn</a> |
-        <a href="https://github.com">GitHub</a> |
-        <a href="https://twitter.com">Twitter</a>
-    </div>
+    <header>
+        <img src="https://via.placeholder.com/150" alt="Foto de perfil de Usuario">
+        <h1>Usuario</h1>
+        <nav>
+            <a href="#inicio">Inicio</a> |
+            <a href="#proyectos">Proyectos</a> |
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div>
+            <a href="https://linkedin.com">LinkedIn</a> |
+            <a href="https://github.com">GitHub</a> |
+            <a href="https://twitter.com">Twitter</a>
+        </div>
+    </header>
 
-    <h2>Sobre mí</h2>
-    <p>Soy un estudiante entusiasta aprendiendo desarrollo web paso a paso, enfocándome en HTML, CSS y más adelante en
-        JavaScript para crear experiencias increíbles en la web.</p>
+    <main>
+        <section id="inicio">
+            <h2>Sobre mí</h2>
+            <p>Soy un estudiante entusiasta aprendiendo desarrollo web paso a paso, enfocándome en HTML, CSS y más
+                adelante en JavaScript para crear experiencias increíbles en la web.</p>
+        </section>
 
-    <h2>Proyectos</h2>
-    <a href="https://ejemplo.com/proyecto1">Proyecto 1: Aplicación del clima</a>
-    <br>
-    <a href="https://ejemplo.com/proyecto2">Proyecto 2: Gestor de tareas</a>
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <ul>
+                <li>
+                    <strong>Proyecto 1:</strong> <em>Aplicación del clima</em> - <a
+                        href="https://ejemplo.com/proyecto1">Ver proyecto</a>
+                </li>
+                <li>
+                    <strong>Proyecto 2:</strong> <em>Gestor de tareas</em> - <a href="https://ejemplo.com/proyecto2">Ver
+                        proyecto</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <p>Contacto por redes sociales.</p>
+    </footer>
 </body>
 
 </html>
